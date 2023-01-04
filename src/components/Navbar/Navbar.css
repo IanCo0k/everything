@@ -61,6 +61,9 @@
     align-items: center;
     background: var(--dark);
     position: fixed;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    box-shadow: 0px 5px 20px var(--accent);
 }
 
 .visible{

@@ -11,6 +11,12 @@ import Footer from '../Footer/Footer';
 import './Projects.css';
 
 export default function Projects() {
+
+
+    useEffect(() => {
+        window.scrollTo(0,0);
+    }, [])
+
   return (
     <div className="container">
         <Navbar></Navbar>

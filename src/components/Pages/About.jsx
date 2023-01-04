@@ -20,8 +20,15 @@ export default function About() {
 
     const refs = [firstRef, secondRef, thirdRef];
     const [counter, setCounter] = useState(1);
+    const [loaded, setLoaded] = useState(false);
 
     useEffect(() => {
+
+        if(!loaded){
+            window.scrollTo(0,0);
+            setLoaded(true);
+        }
+
         if(firstInView['inViewport']){
             setFirst(true);
         }

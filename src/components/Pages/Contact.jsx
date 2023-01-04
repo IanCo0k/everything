@@ -6,16 +6,22 @@ import Footer from '../Footer/Footer';
 
 
 export default function Contact() {
+
+    useEffect(() => {
+        window.scrollTo(0,0);
+    }, [])
+
   return (
     <div className='container'>
         <Navbar></Navbar>
         <div className="contact-container">
             <div className="banner" style={{backgroundImage: `url(${banner})`}}>
                 <div className="banner-text">
-                    <h1>Get in touch!</h1>
+                    <h1>Contact</h1>
                 </div>
             </div>
             <div className="form">
+                <div className='heading'><h1>Get In Touch!</h1></div>
                 <form>
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name"/>

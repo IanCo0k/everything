@@ -7,7 +7,7 @@ export default function Read() {
     <div className="container">
         <Navbar></Navbar>
         <div className="read-container">
-            
+            Coming soon
         </div>
     </div>
   )
