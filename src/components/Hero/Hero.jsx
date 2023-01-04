@@ -51,7 +51,7 @@ export default function Hero() {
                 <h3>Computer Science <FontAwesomeIcon icon={faComputer} /></h3>
                 <h3>Central Michigan University <FontAwesomeIcon icon={faSchool} /></h3>
                 <h3>2024 <FontAwesomeIcon icon={faGraduationCap} /></h3>
-                <button>Projects <FontAwesomeIcon style={{fontSize: '1em'}} icon={faCode} /></button>
+                <a href="/#/projects"><button>Projects <FontAwesomeIcon style={{fontSize: '1em'}} icon={faCode} /></button></a>
             </div>
         </div>
 
@@ -65,7 +65,7 @@ export default function Hero() {
         <div className="full closer" style={{backgroundImage: `url(${hero2})`}}>
             <div ref={contactRef} className={contact ? 'text fade-right' : 'hide'}>
                <h1>Project ideas?</h1>
-               <button>Let's talk!</button>
+               <a href="/#/contact"><button>Let's talk!</button></a>
             </div>
         </div>
     </div>
