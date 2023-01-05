@@ -7,12 +7,9 @@ export default function Footer() {
   return (
     <div className="footer">
         <div className="socials">
-            <FontAwesomeIcon className='icon' icon={faInstagram}/>
-            <FontAwesomeIcon className='icon' icon={faFacebook}/>
-            <FontAwesomeIcon className='icon' icon={faTwitter}/>
-            <FontAwesomeIcon className='icon' icon={faGithub}/>
+            <a href="https://www.instagram.com/westside_speed/"><FontAwesomeIcon className='icon' icon={faInstagram}/></a>
         </div>
-        <h3>Ian Cook</h3>
+        <h3>Westside Speed</h3>
     </div>
   )
 }

@@ -15,6 +15,20 @@
     opacity: 0;
 }
 
+.cta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.top h1{
+    font-weight: bolder;
+}
+
 .fade-right{
     animation: fade-right 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
@@ -23,13 +37,14 @@
     animation: fade-left 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
+
 .hero-container button{
     color: var(--text);
     background: var(--dark-green);
     border: none;
     border-radius: 1em;
     width: 50%;
-    font-size: 1em;
+    font-size: 1.5em;
     padding: .5em;
 }
 
