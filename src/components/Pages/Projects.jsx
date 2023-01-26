@@ -35,7 +35,7 @@ export default function Projects() {
                     </div>
                     <div className="project-image" style={{ backgroundImage: `url(${tnt})` }}>
                         <a href="https://github.com/IanCo0k/ianco0k.github.io">Source Code</a>
-                        <a href="https://tuesdaynighttakes.com/#/">Project Link</a>
+                        <a href="https://ianco0k.github.io/#/">Project Link</a>
                     </div>
                     <div className="project-details">
                         <div className="detail-section">
