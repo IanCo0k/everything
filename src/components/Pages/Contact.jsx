@@ -16,13 +16,13 @@ export default function Contact() {
         <Navbar></Navbar>
         <div className="contact-container">
             <div className="banner" style={{backgroundImage: `url(${banner})`}}>
-                <div className="banner-text">
+                <div className="banner-text fade-in">
                     <h1>Contact</h1>
                 </div>
             </div>
-            <div className="form">
+            <div className="form fade-left">
                 <div className='heading'><h1>Get In Touch!</h1></div>
-                <form>
+                <form action="mailto:ianscook19@gmail.com" encType='text/plain' method="POST">
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name"/>
                     <label for="email">Email</label>

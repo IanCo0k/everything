@@ -23,6 +23,10 @@
     animation: fade-left 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
+.fade-in{
+    animation: fade-in 1s cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+
 .hero-container button{
     color: var(--text);
     background: var(--dark-green);
@@ -78,10 +82,11 @@
 }
 
 .hero-container button:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     background: var(--text);
     color: var(--dark-green);
-    transition: all .2s cubic-bezier(0.075, 0.82, 0.165, 1)
+    transition: all .2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: pointer;
 }
 
 
