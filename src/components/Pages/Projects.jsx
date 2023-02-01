@@ -26,7 +26,6 @@ export default function Projects() {
 
 
     useEffect(() => {
-        window.scrollTo(0,0);
         setLoaded(true);
         if(tntViewport['inViewport']){
             setTntView(true);

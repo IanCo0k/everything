@@ -2,7 +2,7 @@
     width: 100vw;
     min-height: 100vh;
     height: auto;
-    background: var(--dark);
+    background: linear-gradient(to bottom, var(--dark), var(--dark-green));
     position: relative;
     overflow: hidden;
     color: var(--text);
